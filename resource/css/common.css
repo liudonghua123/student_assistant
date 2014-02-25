@@ -1,0 +1,22 @@
+/* http://mac.pcbeta.com/ */
+body, td, input, textarea, select, button {
+    color: #000;
+    font-family: Avenir,Lucida Grande,Calibri,Trebuchet MS,Helvetica,Arial,Hiragino Sans GB,WenQuanYi Micro Hei,STHeiti,Microsoft Jhenghei,Nanum Gothic,sans-serif;
+    text-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+ul#player_list_menu {
+    height: 150px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+ul#player_list_menu li {
+    padding: 3px;
+    /*line-height: 20px;*/
+    font-size: 15px;
+}
+
+.nav-list>li>a {
+    padding: 3px 20px;
+}
