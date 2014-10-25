@@ -39,3 +39,4 @@
 
 * 添加Font-Awesome特性，配合Bootstrap3，如为按钮添加图标使交互更加人性化
 * 更新最新的配合Bootstrap3
+* 添加更好的响应式布局

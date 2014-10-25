@@ -54,7 +54,7 @@
                     <button type="button" class="btn btn-default btn-small"attr="institute_update" ><i class="fa fa-edit"></i> <?php echo lang('website_update'); ?></button>
                     <button type="button" class="btn btn-default btn-small" attr="institute_delete" ><i class="fa fa-trash"></i> <?php echo lang('website_delete'); ?></button>
                     <span class="dropdown">
-                        <a class="dropdown-toggle btn btn-small btn-primary" id="more_manage_dropdown" role="button" data-toggle="dropdown" href="#" ><?php echo lang('website_manage_more'); ?><b class="caret"></b></a>
+                        <a class="dropdown-toggle btn btn-small btn-primary" id="more_manage_dropdown" role="button" data-toggle="dropdown" href="#" ><?php echo lang('website_manage_more'); ?> <b class="caret"></b></a>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="more_manage_dropdown">
                             <li role="presentation"><?php echo anchor("student_assistant/manage_majors/index/$institute->school_id/$institute->id", lang('website_manage_majors')); ?></li>
                             <li role="presentation"><?php echo anchor("student_assistant/manage_teachers/index/$institute->school_id/$institute->id", lang('website_manage_teachers')); ?></li>
@@ -86,7 +86,7 @@
                   <button type="button" class="btn btn-default btn-small"attr="institute_update" ><i class="fa fa-edit"></i> <?php echo lang('website_update'); ?></button>
                   <button type="button" class="btn btn-default btn-small" attr="institute_delete" ><i class="fa fa-trash"></i> <?php echo lang('website_delete'); ?></button>
                   <span class="dropdown">
-                      <a class="dropdown-toggle btn btn-small btn-primary" id="more_manage_dropdown" role="button" data-toggle="dropdown" href="#" ><?php echo lang('website_manage_more'); ?><b class="caret"></b></a>
+                      <a class="dropdown-toggle btn btn-small btn-primary" id="more_manage_dropdown" role="button" data-toggle="dropdown" href="#" ><?php echo lang('website_manage_more'); ?> <b class="caret"></b></a>
                       <ul class="dropdown-menu" role="menu" aria-labelledby="more_manage_dropdown">
                           <li role="presentation"><?php echo anchor("student_assistant/manage_majors/index/school_id/institute_id", lang('website_manage_majors')); ?></li>
                           <li role="presentation"><?php echo anchor("student_assistant/manage_teachers/index/school_id/institute_id", lang('website_manage_teachers')); ?></li>

@@ -17,6 +17,16 @@ ul#player_list_menu li {
     font-size: 15px;
 }
 
-.nav-list>li>a {
-    padding: 3px 20px;
+/* http://stackoverflow.com/questions/18329010/what-happened-to-nav-header-class */
+.nav > li.nav-header > a {
+    cursor: default;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+}
+
+.nav > li.nav-header > a:hover,
+.nav > li.nav-header > a:focus {
+    background-color: #fff;
 }
