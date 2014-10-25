@@ -29,7 +29,7 @@
             <th><?php echo lang('schools_column_name'); ?></th>
             <th><?php echo lang('schools_column_description'); ?></th>
             <th>
-                <button id="school_create" type="button" class="btn btn-default btn-primary btn-small" ><?php echo lang('website_create'); ?></button>
+                <button id="school_create" type="button" class="btn btn-default btn-primary btn-small" ><i class="fa fa-file-o"></i> <?php echo lang('website_create'); ?></button>
             </th>
           </tr>
         </thead>
@@ -46,8 +46,8 @@
                   <span attr="school_description"><?php echo $school->school_description; ?></span>
               </td>
               <td>
-                  <button type="button" class="btn btn-default btn-small"attr="school_update" ><?php echo lang('website_update'); ?></button>
-                  <button type="button" class="btn btn-default btn-small" attr="school_delete" ><?php echo lang('website_delete'); ?></button>
+                  <button type="button" class="btn btn-default btn-small"attr="school_update" ><i class="fa fa-edit"></i> <?php echo lang('website_update'); ?></button>
+                  <button type="button" class="btn btn-default btn-small" attr="school_delete" ><i class="fa fa-trash"></i> <?php echo lang('website_delete'); ?></button>
                   <?php echo anchor("student_assistant/manage_institutes/index/$school->id", lang('website_manage_institutes'), 'class="btn btn-default btn-small btn-primary"'); ?>
                   <?php echo anchor("student_assistant/manage_rooms/index/$school->id", lang('website_manage_rooms'), 'class="btn btn-default btn-small btn-primary"'); ?>
                   <?php echo anchor("student_assistant/manage_course_types/index/$school->id", lang('website_manage_course_types'), 'class="btn btn-default btn-small btn-primary"'); ?>
@@ -65,8 +65,8 @@
                   <span attr="school_description"></span>
               </td>
               <td>
-                  <button type="button" class="btn btn-default btn-small"attr="school_update" ><?php echo lang('website_update'); ?></button>
-                  <button type="button" class="btn btn-default btn-small" attr="school_delete" ><?php echo lang('website_delete'); ?></button>
+                  <button type="button" class="btn btn-default btn-small"attr="school_update" ><i class="fa fa-edit"></i> <?php echo lang('website_update'); ?></button>
+                  <button type="button" class="btn btn-default btn-small" attr="school_delete" ><i class="fa fa-trash"></i> <?php echo lang('website_delete'); ?></button>
                   <?php echo anchor("student_assistant/manage_institutes/index/school_id", lang('website_manage_institutes'), 'class="btn btn-default btn-small btn-primary"'); ?>
                   <?php echo anchor("student_assistant/manage_rooms/index/school_id", lang('website_manage_rooms'), 'class="btn btn-default btn-small btn-primary"'); ?>
                   <?php echo anchor("student_assistant/manage_course_types/index/school_id", lang('website_manage_course_types'), 'class="btn btn-default btn-small btn-primary"'); ?>

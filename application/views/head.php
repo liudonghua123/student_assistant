@@ -20,6 +20,7 @@
 <link href="<?php echo base_url().RES_DIR; ?>/bootstrap/css/bootstrap-select.min.css" rel="stylesheet">
 <link href="<?php echo base_url().RES_DIR; ?>/bootstrap/css/bootstrap-timepicker.min.css" rel="stylesheet">
 <link href="<?php echo base_url().RES_DIR; ?>/mediaelement/mediaelementplayer.min.css" rel="stylesheet">
+<link href="<?php echo base_url().RES_DIR; ?>/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 <link href="<?php echo base_url().RES_DIR; ?>/css/stroll.min.css" rel="stylesheet">
 
 <script src="<?php echo base_url().RES_DIR; ?>/js/jquery.min.js"></script>

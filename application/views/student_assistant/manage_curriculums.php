@@ -29,7 +29,7 @@
             <th><?php echo lang('curriculums_column_name'); ?></th>
             <th><?php echo lang('curriculums_column_description'); ?></th>
             <th>
-                <button id="curriculum_create" type="button" class="btn btn-default btn-primary btn-small" ><?php echo lang('website_create'); ?></button>
+                <button id="curriculum_create" type="button" class="btn btn-default btn-primary btn-small" ><i class="fa fa-file-o"></i> <?php echo lang('website_create'); ?></button>
             </th>
           </tr>
         </thead>
@@ -46,8 +46,8 @@
                   <span attr="curriculum_description"><?php echo $curriculum->curriculum_description; ?></span>
               </td>
                 <td>
-                    <button type="button" class="btn btn-default btn-small"attr="curriculum_update" ><?php echo lang('website_update'); ?></button>
-                    <button type="button" class="btn btn-default btn-small" attr="curriculum_delete" ><?php echo lang('website_delete'); ?></button>
+                    <button type="button" class="btn btn-default btn-small"attr="curriculum_update" ><i class="fa fa-edit"></i> <?php echo lang('website_update'); ?></button>
+                    <button type="button" class="btn btn-default btn-small" attr="curriculum_delete" ><i class="fa fa-trash"></i> <?php echo lang('website_delete'); ?></button>
                     <?php echo anchor("student_assistant/manage_lessons/index/$institute->school_id/$institute->id/$curriculum->id", lang('website_manage_lessons'), 'class="btn btn-default btn-small btn-primary"'); ?>
                 </td>
             </tr>
@@ -63,8 +63,8 @@
                   <span attr="curriculum_description"></span>
               </td>
               <td>
-                  <button type="button" class="btn btn-default btn-small" attr="curriculum_update" ><?php echo lang('website_update'); ?></button>
-                  <button type="button" class="btn btn-default btn-small" attr="curriculum_delete" ><?php echo lang('website_delete'); ?></button>
+                  <button type="button" class="btn btn-default btn-small" attr="curriculum_update" ><i class="fa fa-edit"></i> <?php echo lang('website_update'); ?></button>
+                  <button type="button" class="btn btn-default btn-small" attr="curriculum_delete" ><i class="fa fa-trash"></i> <?php echo lang('website_delete'); ?></button>
                   <?php echo anchor("student_assistant/manage_lessons/index/school_id/institute_id/curriculum_id", lang('website_manage_lessons'), 'class="btn btn-default btn-small btn-primary"'); ?>
               </td>
           </tr>

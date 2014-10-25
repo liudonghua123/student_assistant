@@ -32,7 +32,7 @@
             <th><?php echo lang('lessons_column_day'); ?></th>
             <th><?php echo lang('lessons_column_schedule_time'); ?></th>
             <th>
-                <button id="lesson_create" type="button" class="btn btn-default btn-primary btn-small" ><?php echo lang('website_create'); ?></button>
+                <button id="lesson_create" type="button" class="btn btn-default btn-primary btn-small" ><i class="fa fa-file-o"></i> <?php echo lang('website_create'); ?></button>
             </th>
           </tr>
         </thead>
@@ -63,8 +63,8 @@
                   <span attr="lesson_schedule_time_id" style="display: none"><?php echo $lesson->schedule_time_id; ?></span>
               </td>
               <td>
-                  <button type="button" class="btn btn-default btn-small" attr="lesson_update" ><?php echo lang('website_update'); ?></button>
-                  <button type="button" class="btn btn-default btn-small" attr="lesson_delete" ><?php echo lang('website_delete'); ?></button>
+                  <button type="button" class="btn btn-default btn-small" attr="lesson_update" ><i class="fa fa-edit"></i> <?php echo lang('website_update'); ?></button>
+                  <button type="button" class="btn btn-default btn-small" attr="lesson_delete" ><i class="fa fa-trash"></i> <?php echo lang('website_delete'); ?></button>
               </td>
             </tr>
           <?php endforeach; ?>
@@ -93,8 +93,8 @@
                 <span attr="lesson_schedule_time_id" style="display: none"></span>
             </td>
             <td>
-                <button type="button" class="btn btn-default btn-small" attr="lesson_update" ><?php echo lang('website_update'); ?></button>
-                <button type="button" class="btn btn-default btn-small" attr="lesson_delete" ><?php echo lang('website_delete'); ?></button>
+                <button type="button" class="btn btn-default btn-small" attr="lesson_update" ><i class="fa fa-edit"></i> <?php echo lang('website_update'); ?></button>
+                <button type="button" class="btn btn-default btn-small" attr="lesson_delete" ><i class="fa fa-trash"></i> <?php echo lang('website_delete'); ?></button>
             </td>
           </tr>
         </tbody>

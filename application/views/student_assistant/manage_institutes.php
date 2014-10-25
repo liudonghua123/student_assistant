@@ -30,7 +30,7 @@
             <th><?php echo lang('institutes_column_school'); ?></th>
             <th><?php echo lang('institutes_column_description'); ?></th>
             <th>
-                <button id="institute_create" type="button" class="btn btn-default btn-primary btn-small" ><?php echo lang('website_create'); ?></button>
+                <button id="institute_create" type="button" class="btn btn-default btn-primary btn-small" ><i class="fa fa-file-o"></i> <?php echo lang('website_create'); ?></button>
             </th>
           </tr>
         </thead>
@@ -51,8 +51,8 @@
                   <span attr="institute_description"><?php echo $institute->institute_description; ?></span>
               </td>
                 <td>
-                    <button type="button" class="btn btn-default btn-small"attr="institute_update" ><?php echo lang('website_update'); ?></button>
-                    <button type="button" class="btn btn-default btn-small" attr="institute_delete" ><?php echo lang('website_delete'); ?></button>
+                    <button type="button" class="btn btn-default btn-small"attr="institute_update" ><i class="fa fa-edit"></i> <?php echo lang('website_update'); ?></button>
+                    <button type="button" class="btn btn-default btn-small" attr="institute_delete" ><i class="fa fa-trash"></i> <?php echo lang('website_delete'); ?></button>
                     <span class="dropdown">
                         <a class="dropdown-toggle btn btn-small btn-primary" id="more_manage_dropdown" role="button" data-toggle="dropdown" href="#" ><?php echo lang('website_manage_more'); ?><b class="caret"></b></a>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="more_manage_dropdown">
@@ -83,8 +83,8 @@
                   <span attr="institute_description"></span>
               </td>
               <td>
-                  <button type="button" class="btn btn-default btn-small"attr="institute_update" ><?php echo lang('website_update'); ?></button>
-                  <button type="button" class="btn btn-default btn-small" attr="institute_delete" ><?php echo lang('website_delete'); ?></button>
+                  <button type="button" class="btn btn-default btn-small"attr="institute_update" ><i class="fa fa-edit"></i> <?php echo lang('website_update'); ?></button>
+                  <button type="button" class="btn btn-default btn-small" attr="institute_delete" ><i class="fa fa-trash"></i> <?php echo lang('website_delete'); ?></button>
                   <span class="dropdown">
                       <a class="dropdown-toggle btn btn-small btn-primary" id="more_manage_dropdown" role="button" data-toggle="dropdown" href="#" ><?php echo lang('website_manage_more'); ?><b class="caret"></b></a>
                       <ul class="dropdown-menu" role="menu" aria-labelledby="more_manage_dropdown">

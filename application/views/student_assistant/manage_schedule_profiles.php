@@ -29,7 +29,7 @@
             <th><?php echo lang('schedule_profiles_column_name'); ?></th>
             <th><?php echo lang('schedule_profiles_column_description'); ?></th>
             <th>
-                <button id="schedule_profile_create" type="button" class="btn btn-default btn-primary btn-small" ><?php echo lang('website_create'); ?></button>
+                <button id="schedule_profile_create" type="button" class="btn btn-default btn-primary btn-small" ><i class="fa fa-file-o"></i> <?php echo lang('website_create'); ?></button>
             </th>
           </tr>
         </thead>
@@ -46,8 +46,8 @@
                   <span attr="schedule_profile_description"><?php echo $schedule_profile->schedule_profile_description; ?></span>
               </td>
                 <td>
-                    <button type="button" class="btn btn-default btn-small"attr="schedule_profile_update" ><?php echo lang('website_update'); ?></button>
-                    <button type="button" class="btn btn-default btn-small" attr="schedule_profile_delete" ><?php echo lang('website_delete'); ?></button>
+                    <button type="button" class="btn btn-default btn-small"attr="schedule_profile_update" ><i class="fa fa-edit"></i> <?php echo lang('website_update'); ?></button>
+                    <button type="button" class="btn btn-default btn-small" attr="schedule_profile_delete" ><i class="fa fa-trash"></i> <?php echo lang('website_delete'); ?></button>
                 </td>
             </tr>
           <?php endforeach; ?>
@@ -62,8 +62,8 @@
                   <span attr="schedule_profile_description"></span>
               </td>
               <td>
-                  <button type="button" class="btn btn-default btn-small"attr="schedule_profile_update" ><?php echo lang('website_update'); ?></button>
-                  <button type="button" class="btn btn-default btn-small" attr="schedule_profile_delete" ><?php echo lang('website_delete'); ?></button>
+                  <button type="button" class="btn btn-default btn-small"attr="schedule_profile_update" ><i class="fa fa-edit"></i> <?php echo lang('website_update'); ?></button>
+                  <button type="button" class="btn btn-default btn-small" attr="schedule_profile_delete" ><i class="fa fa-trash"></i> <?php echo lang('website_delete'); ?></button>
               </td>
           </tr>
         </tbody>

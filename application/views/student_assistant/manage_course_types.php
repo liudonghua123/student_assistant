@@ -30,7 +30,7 @@
             <th><?php echo lang('course_types_column_school'); ?></th>
             <th><?php echo lang('course_types_column_description'); ?></th>
             <th>
-                <button id="course_type_create" type="button" class="btn btn-default btn-primary btn-small" ><?php echo lang('website_create'); ?></button>
+                <button id="course_type_create" type="button" class="btn btn-default btn-primary btn-small" ><i class="fa fa-file-o"></i> <?php echo lang('website_create'); ?></button>
             </th>
           </tr>
         </thead>
@@ -51,8 +51,8 @@
                   <span attr="course_type_description"><?php echo $course_type->course_type_description; ?></span>
               </td>
                 <td>
-                    <button type="button" class="btn btn-default btn-small"attr="course_type_update" ><?php echo lang('website_update'); ?></button>
-                    <button type="button" class="btn btn-default btn-small" attr="course_type_delete" ><?php echo lang('website_delete'); ?></button>
+                    <button type="button" class="btn btn-default btn-small"attr="course_type_update" ><i class="fa fa-edit"></i> <?php echo lang('website_update'); ?></button>
+                    <button type="button" class="btn btn-default btn-small" attr="course_type_delete" ><i class="fa fa-trash"></i> <?php echo lang('website_delete'); ?></button>
                 </td>
             </tr>
           <?php endforeach; ?>
@@ -71,8 +71,8 @@
                   <span attr="course_type_description"></span>
               </td>
               <td>
-                  <button type="button" class="btn btn-default btn-small" attr="course_type_update" ><?php echo lang('website_update'); ?></button>
-                  <button type="button" class="btn btn-default btn-small" attr="course_type_delete" ><?php echo lang('website_delete'); ?></button>
+                  <button type="button" class="btn btn-default btn-small" attr="course_type_update" ><i class="fa fa-edit"></i> <?php echo lang('website_update'); ?></button>
+                  <button type="button" class="btn btn-default btn-small" attr="course_type_delete" ><i class="fa fa-trash"></i> <?php echo lang('website_delete'); ?></button>
               </td>
           </tr>
         </tbody>

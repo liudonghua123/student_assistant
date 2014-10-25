@@ -30,7 +30,7 @@
             <th><?php echo lang('rooms_column_school'); ?></th>
             <th><?php echo lang('rooms_column_description'); ?></th>
             <th>
-                <button id="room_create" type="button" class="btn btn-default btn-primary btn-small" ><?php echo lang('website_create'); ?></button>
+                <button id="room_create" type="button" class="btn btn-default btn-primary btn-small" ><i class="fa fa-file-o"></i> <?php echo lang('website_create'); ?></button>
             </th>
           </tr>
         </thead>
@@ -51,8 +51,8 @@
                   <span attr="room_description"><?php echo $room->room_description; ?></span>
               </td>
                 <td>
-                    <button type="button" class="btn btn-default btn-small"attr="room_update" ><?php echo lang('website_update'); ?></button>
-                    <button type="button" class="btn btn-default btn-small" attr="room_delete" ><?php echo lang('website_delete'); ?></button>
+                    <button type="button" class="btn btn-default btn-small"attr="room_update" ><i class="fa fa-edit"></i> <?php echo lang('website_update'); ?></button>
+                    <button type="button" class="btn btn-default btn-small" attr="room_delete" ><i class="fa fa-trash"></i> <?php echo lang('website_delete'); ?></button>
                 </td>
             </tr>
           <?php endforeach; ?>
@@ -71,8 +71,8 @@
                   <span attr="room_description"></span>
               </td>
               <td>
-                  <button type="button" class="btn btn-default btn-small" attr="room_update" ><?php echo lang('website_update'); ?></button>
-                  <button type="button" class="btn btn-default btn-small" attr="room_delete" ><?php echo lang('website_delete'); ?></button>
+                  <button type="button" class="btn btn-default btn-small" attr="room_update" ><i class="fa fa-edit"></i> <?php echo lang('website_update'); ?></button>
+                  <button type="button" class="btn btn-default btn-small" attr="room_delete" ><i class="fa fa-trash"></i> <?php echo lang('website_delete'); ?></button>
               </td>
           </tr>
         </tbody>

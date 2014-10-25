@@ -34,7 +34,7 @@
             <th><?php echo lang('students_column_login_name'); ?></th>
             <th><?php echo lang('students_column_id_number'); ?></th>
             <th>
-                <button id="student_create" type="button" class="btn btn-default btn-primary btn-small" ><?php echo lang('website_create'); ?></button>
+                <button id="student_create" type="button" class="btn btn-default btn-primary btn-small" ><i class="fa fa-file-o"></i> <?php echo lang('website_create'); ?></button>
             </th>
           </tr>
         </thead>
@@ -70,8 +70,8 @@
                   <span attr="student_id_number"><?php echo $student->id_number; ?></span>
               </td>
                 <td>
-                    <button type="button" class="btn btn-default btn-small"attr="student_update" ><?php echo lang('website_update'); ?></button>
-                    <button type="button" class="btn btn-default btn-small" attr="student_delete" ><?php echo lang('website_delete'); ?></button>
+                    <button type="button" class="btn btn-default btn-small"attr="student_update" ><i class="fa fa-edit"></i> <?php echo lang('website_update'); ?></button>
+                    <button type="button" class="btn btn-default btn-small" attr="student_delete" ><i class="fa fa-trash"></i> <?php echo lang('website_delete'); ?></button>
                 </td>
             </tr>
           <?php endforeach; ?>
@@ -105,8 +105,8 @@
                   <span attr="student_id_number"></span>
               </td>
               <td>
-                  <button type="button" class="btn btn-default btn-small" attr="student_update" ><?php echo lang('website_update'); ?></button>
-                  <button type="button" class="btn btn-default btn-small" attr="student_delete" ><?php echo lang('website_delete'); ?></button>
+                  <button type="button" class="btn btn-default btn-small" attr="student_update" ><i class="fa fa-edit"></i> <?php echo lang('website_update'); ?></button>
+                  <button type="button" class="btn btn-default btn-small" attr="student_delete" ><i class="fa fa-trash"></i> <?php echo lang('website_delete'); ?></button>
               </td>
           </tr>
         </tbody>

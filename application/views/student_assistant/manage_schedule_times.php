@@ -31,7 +31,7 @@
                     <th><?php echo lang('schedule_times_column_end_time'); ?></th>
                     <th><?php echo lang('schedule_times_column_schedule_no'); ?></th>
                     <th>
-                        <button id="schedule_time_create" type="button" class="btn btn-default btn-primary btn-small" ><?php echo lang('website_create'); ?></button>
+                        <button id="schedule_time_create" type="button" class="btn btn-default btn-primary btn-small" ><i class="fa fa-file-o"></i> <?php echo lang('website_create'); ?></button>
                     </th>
                 </tr>
                 </thead>
@@ -55,8 +55,8 @@
                             <span attr="schedule_time_schedule_no"><?php echo $schedule_time->schedule_no; ?></span>
                         </td>
                         <td>
-                            <button type="button" class="btn btn-default btn-small"attr="schedule_time_update" ><?php echo lang('website_update'); ?></button>
-                            <button type="button" class="btn btn-default btn-small" attr="schedule_time_delete" ><?php echo lang('website_delete'); ?></button>
+                            <button type="button" class="btn btn-default btn-small"attr="schedule_time_update" ><i class="fa fa-edit"></i> <?php echo lang('website_update'); ?></button>
+                            <button type="button" class="btn btn-default btn-small" attr="schedule_time_delete" ><i class="fa fa-trash"></i> <?php echo lang('website_delete'); ?></button>
                         </td>
                     </tr>
                 <?php endforeach; ?>
@@ -78,8 +78,8 @@
                         <span attr="schedule_time_schedule_no"></span>
                     </td>
                     <td>
-                        <button type="button" class="btn btn-default btn-small" attr="schedule_time_update" ><?php echo lang('website_update'); ?></button>
-                        <button type="button" class="btn btn-default btn-small" attr="schedule_time_delete" ><?php echo lang('website_delete'); ?></button>
+                        <button type="button" class="btn btn-default btn-small" attr="schedule_time_update" ><i class="fa fa-edit"></i> <?php echo lang('website_update'); ?></button>
+                        <button type="button" class="btn btn-default btn-small" attr="schedule_time_delete" ><i class="fa fa-trash"></i> <?php echo lang('website_delete'); ?></button>
                     </td>
                 </tr>
                 </tbody>
