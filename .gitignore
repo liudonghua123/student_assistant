@@ -2,3 +2,7 @@
 #Ignore log files of any kind
 log-*.php
 
+#Ignore PHPStorm project files
+.idea
+
+
